@@ -1,0 +1,36 @@
+{
+  "name": "primaryperson.github.io",
+  "version": "1.0.0",
+  "description": "You can use the [editor on GitHub](https://github.com/primaryperson/userlist.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --open --hot",
+    "build": "webpack",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/primaryperson/primaryperson.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/primaryperson/primaryperson.github.io/issues"
+  },
+  "homepage": "https://primaryperson.github.io",
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "ts-loader": "^5.2.1",
+    "typescript": "^3.1.1",
+    "vue": "^2.5.17",
+    "vue-loader": "^15.4.2",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  },
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
